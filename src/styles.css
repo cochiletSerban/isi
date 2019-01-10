@@ -16,6 +16,7 @@ h6{font-size:.75rem}
     font-size: 1.1rem;
     padding: 0;
     margin: 0;
+    box-sizing: border-box!important;
 }
 
 .register-form, .login-form {
@@ -38,4 +39,9 @@ button {
 body {
     background: url("./background.jpg") no-repeat center center fixed; ;
     background-size: cover;
+    overflow:hidden;
+}
+
+mat-card {
+    margin-bottom: 5px;
 }

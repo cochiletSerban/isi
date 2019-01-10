@@ -25,8 +25,8 @@ export class GraphsComponent implements OnInit, OnDestroy {
 
   public chartColors: Array<any> = [
     {
-      backgroundColor: 'rgba(105, 0, 132, .2)',
-      borderColor: 'rgba(200, 99, 132, .7)',
+      backgroundColor: 'rgba(0, 255, 0, .2)',
+      borderColor: 'rgba(0, 255, 50, .7)',
       borderWidth: 2,
     },
     {
