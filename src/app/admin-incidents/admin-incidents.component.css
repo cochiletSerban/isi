@@ -1,0 +1,13 @@
+.tab-group {
+    min-width: 150px;
+    max-width: 80vw;
+    margin: 5vh auto;
+    padding: 5vh 5vh 5vh 5vh;
+    background: whitesmoke;
+    border-radius: 10px;
+    max-height: 80vh;
+}
+
+::ng-deep .mat-tab-labels {
+    display: inline-flex !important;
+}

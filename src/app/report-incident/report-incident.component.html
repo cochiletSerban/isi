@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <form class="report-incident-form" (ngSubmit)="onSubmit()">
+    <h2>Report an incident!</h2>
+    <mat-form-field class="full-width">
+      <textarea
+        matInput
+        placeholder="Description"
+        [(ngModel)]="description"
+        name="description"
+        cdkTextareaAutosize
+        #autosize="cdkTextareaAutosize"
+        cdkAutosizeMinRows="2"
+        cdkAutosizeMaxRows="15">
+      </textarea>
+    </mat-form-field>
+    <button mat-raised-button type="submit">Report</button>
+    <h3 *ngIf="showMessage">Thank you! Your incident will be analysed by an admin.</h3>
+  </form>
+</div>

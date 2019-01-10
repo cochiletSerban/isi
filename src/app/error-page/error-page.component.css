@@ -1,0 +1,13 @@
+.h-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+}
+
+.container-fluid {
+    background-image: url("../../background.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;   
+}

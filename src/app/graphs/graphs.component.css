@@ -1,0 +1,13 @@
+.container {
+    min-width: 150px;
+    max-width: 80vw;
+    margin: 5vh auto;
+    padding: 5vh 1vw;
+    background: whitesmoke;
+    border-radius: 10px;
+    max-height: 80vh;
+}
+
+canvas {
+    max-height: 70vh;
+}
