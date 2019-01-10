@@ -1,8 +1,9 @@
 .container {
-    height: 80vh;
+    max-height: 40vh;
     max-width: 90vw;
-    margin: 5vh auto;
+    margin-top: -20px auto;
     padding: 5vh 5vh 5vh 5vh;
     background: whitesmoke;
     border-radius: 10px;
+    overflow: auto;
 }
